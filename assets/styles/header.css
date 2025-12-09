@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *,
@@ -69,3 +70,76 @@ header {
   width: 100%;
   color: #ff7147;
 }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family:"Poppins";
+}
+
+header {
+  width: 100%;
+  padding: 10px 8%;
+  background-color: #1b222b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+}
+
+#navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-logo {
+  width: 125px;
+  height: 125px;
+}
+
+#nav_list {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+}
+
+.nav-item a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-family: "JetBrains Mono";
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
+  text-transform: uppercase;
+  font-family:"Poppins";
+}
+
+.nav-item a:hover {
+  color: #1941dc;
+}
+
+.nav-item a::after {
+  content: "";
+  position: absolute;
+  background-color: #ff7147;
+  height: 3px;
+  width: 0%;
+  left: 0;
+  bottom: -10px;
+  transition: width 0.3s ease;
+}
+
+.nav-item a:hover::after {
+  width: 100%;
+  color: #ff7147;
+}
+>>>>>>> ba6ec38260a59893d5864a5c74cc7c469566f7f2
